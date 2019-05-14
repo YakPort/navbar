@@ -1,0 +1,48 @@
+.navDefault {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #4a4a4f;
+
+}
+
+button {
+    border: none;
+    background-color: #0997d3;
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.dropdownMenu {
+     list-style:none;
+     margin: 0;
+     position: absolute;  /* which makes it positioned relative to the navDefault, i.e ancestor element*/
+     
+     left: 0;
+     right: 0;
+     top: 70px;
+     width: 200px;
+     padding: 0px;
+     text-align: center;
+     box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+     
+ }
+ 
+ .dropdownLink {
+     text-decoration: none;
+     display: block;
+     background-color: #f9f9f9;
+     color: #4a4a4f;
+     padding: 10px 5px;
+     transition: background-color .1s ease-in-out, color .1s ease-in-out;
+ }
+ 
+ 
+ .dropdownLink:hover {
+     background-color: #a0a0a3;
+     color: #fff;
+ }
